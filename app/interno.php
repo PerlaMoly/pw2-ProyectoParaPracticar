@@ -5,7 +5,11 @@ if(!isset($_SESSION["usuario"])){
     exit();
 }
 echo $_SESSION["usuario"];
+<<<<<<< HEAD
 include_once 'logout.php';
 
+=======
+include_once 'cerrarSesion.php';
+>>>>>>> origin/master
 
 ?>
